@@ -1,10 +1,13 @@
-![Android](http://www.freepeltier.org/wp-content/uploads/google-android-f.jpg)
+ZED
+=======
 
-ZED 2D is a project dedicated to recreating Ned's Turkey Farm in the Android framework.
+![](screenshots/gameplay.png)
+
+ZED is a project dedicated to recreating Ned's Turkey Farm in the Android framework.
 
 Ned's Turkey Farm is a learning tool created by Dr. Ian Parberry to create 2D games, and 
 though it is written in C++ using DirectX 9, the same ideas and concepts are carried over
-into ZED 2D, with Java and OpenGL. If you need to review Java or are new to learning Android,
+into ZED, with Java and OpenGL. If you need to review Java or are new to learning Android,
 check out the Android tutorials: http://developer.android.com/training/index.html
 If you need to learn OpenGL, I would recommend referencing the OGL Redbook:
 http://www.glprogramming.com/red/
