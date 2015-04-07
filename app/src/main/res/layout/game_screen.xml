@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+  
+    
+    <view xmlns:android="http://schemas.android.com/apk/res/android" 
+		class = "com.jawnnypoo.zed.graphics.GLSurfaceView"
+		android:id="@+id/glsurfaceview"
+	    android:layout_width="match_parent" 
+	    android:layout_height="match_parent"
+	/>
+    
+    <TextView android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Score: 0"
+        android:textColor="@color/holo_blue_bright"/>
+    
+    <TextView android:id="@+id/health"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:text="Health: "
+        android:textColor="@color/holo_blue_bright"/>
+    
+    <TextView android:id="@+id/debug"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="10dp"
+        android:text="Debug: Add your desired debug text to it"
+        android:textColor="@color/holo_blue_bright"/>
+    
+    <ImageView android:id="@+id/debugButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+   		android:src="@drawable/reset"
+   		android:contentDescription="@null"
+        />
+    
+     <ImageView android:id="@+id/gameOver"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+   		android:src="@drawable/gameover"
+   		android:contentDescription="@null"
+        />
+    
+    
+</FrameLayout>
