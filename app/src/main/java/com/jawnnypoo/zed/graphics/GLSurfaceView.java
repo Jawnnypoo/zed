@@ -1603,10 +1603,7 @@ public class GLSurfaceView extends SurfaceView implements SurfaceHolder.Callback
                 return true;
             }
             checkGLESVersion();
-            if (mMultipleGLESContextsAllowed) {
-                return true;
-            }
-            return false;
+            return mMultipleGLESContextsAllowed;
         }
         /*
          * Releases the EGL surface. Requires that we are already in the
