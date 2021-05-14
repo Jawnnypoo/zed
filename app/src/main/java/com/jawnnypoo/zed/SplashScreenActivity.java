@@ -2,7 +2,6 @@ package com.jawnnypoo.zed;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -12,6 +11,8 @@ import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+
+import androidx.fragment.app.FragmentActivity;
 
 public class SplashScreenActivity extends FragmentActivity implements OnClickListener, AnimationListener {
 	private static final int STATE_CREDIT_GROW = 0;

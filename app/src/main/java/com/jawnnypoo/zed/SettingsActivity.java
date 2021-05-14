@@ -3,11 +3,12 @@ package com.jawnnypoo.zed;
 import com.jawnnypoo.zed.fragment.SettingsFragment;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
 import android.view.Window;
 
-public class SettingsActivity extends FragmentActivity{
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTransaction;
+
+public class SettingsActivity extends FragmentActivity {
 
 	private static final String FRAGMENT_TAG = "fragment_tag";
 	private SettingsFragment mSettingsFragment; 

@@ -6,7 +6,6 @@
         <activity
             android:name="com.jawnnypoo.zed.GameScreenActivity"
             android:screenOrientation="landscape">
-            android:label="@string/app_name" >
 
         </activity>
 

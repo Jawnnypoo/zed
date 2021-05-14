@@ -4,15 +4,16 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 
+import androidx.fragment.app.Fragment;
+
 import com.jawnnypoo.zed.R;
 
-public class SettingsFragment extends Fragment{
+public class SettingsFragment extends Fragment {
 	private SharedPreferences mSharedPreferences;
 	private CheckBox mCheckSound;
 
